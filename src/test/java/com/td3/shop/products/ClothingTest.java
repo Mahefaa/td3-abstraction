@@ -1,13 +1,12 @@
-package com.td3.products.shapes;
+package com.td3.shop.products;
 
-import static com.td3.products.Clothing.ClotheSize.M;
-import static com.td3.products.Clothing.ClotheSize.XL;
-import static com.td3.products.Clothing.ClothingMaterial.COTTON;
-import static com.td3.products.Clothing.ClothingMaterial.WOOl;
+import static com.td3.shop.products.Clothing.ClotheSize.M;
+import static com.td3.shop.products.Clothing.ClotheSize.XL;
+import static com.td3.shop.products.Clothing.ClothingMaterial.COTTON;
+import static com.td3.shop.products.Clothing.ClothingMaterial.WOOl;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.td3.products.Clothing;
-import com.td3.products.Electronics;
+import com.td3.shop.products.Clothing;
 import org.junit.jupiter.api.Test;
 
 class ClothingTest {

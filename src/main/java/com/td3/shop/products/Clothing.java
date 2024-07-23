@@ -1,4 +1,4 @@
-package com.td3.products;
+package com.td3.shop.products;
 
 public class Clothing {
   private final String id;
