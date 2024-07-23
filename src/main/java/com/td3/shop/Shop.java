@@ -1,7 +1,20 @@
 package com.td3.shop;
 
-public class Shop {
-  public void addProduct() {}
+import com.td3.shop.products.Product;
+import java.util.List;
 
-  public void displayProduct() {}
+public class Shop {
+  private final List<Product> products;
+
+  public Shop(List<Product> products) {
+    this.products = products;
+  }
+
+  public void addProduct(Product e) {
+    products.add(e);
+  }
+
+  public void displayProduct() {
+    products.forEach(System.out::println);
+  }
 }

@@ -17,6 +17,7 @@ public class Electronics extends Product {
     this.weightInKg = weightInKg;
   }
 
+  @Override
   public final double prixTTCAvecLivraison() {
     return unitPrice + (weightInKg * KG_PRICE);
   }

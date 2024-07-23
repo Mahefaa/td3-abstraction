@@ -1,6 +1,6 @@
 package com.td3.shop.products;
 
-public class Product {
+public abstract class Product {
 	protected final String id;
 	protected final String name;
 	protected final String description;
@@ -12,4 +12,6 @@ public class Product {
 		this.description = description;
 		this.unitPrice = unitPrice;
 	}
+
+	public abstract double prixTTCAvecLivraison();
 }

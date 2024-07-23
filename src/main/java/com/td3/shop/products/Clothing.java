@@ -29,6 +29,7 @@ public class Clothing extends Product {
     SILK;
   }
 
+  @Override
   public final double prixTTCAvecLivraison() {
     return unitPrice + getSizeDependantAddedPrice() + getMaterialDependantAddedPrice();
   }
