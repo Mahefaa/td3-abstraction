@@ -47,4 +47,8 @@ public class Clothing extends Product {
       case L, XL, XXL -> unitPrice * 5 / 100;
     };
   }
+
+  public void mivarotena() {
+    System.out.println(" amidy mora be ohhh");
+  }
 }

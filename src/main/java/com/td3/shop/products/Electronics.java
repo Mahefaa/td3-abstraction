@@ -21,4 +21,8 @@ public class Electronics extends Product {
   public final double prixTTCAvecLivraison() {
     return unitPrice + (weightInKg * KG_PRICE);
   }
+
+  public final void mandefaPubs() {
+    System.out.println(" iny le menaka mahagaga");
+  }
 }

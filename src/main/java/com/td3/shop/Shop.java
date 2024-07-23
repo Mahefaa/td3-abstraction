@@ -17,4 +17,8 @@ public class Shop {
   public void displayProduct() {
     products.forEach(System.out::println);
   }
+
+  public List<Product> getProducts() {
+    return products;
+  }
 }

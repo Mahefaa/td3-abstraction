@@ -2,7 +2,6 @@ package com.td3.shop.products;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.td3.shop.products.Electronics;
 import org.junit.jupiter.api.Test;
 
 class ElectronicsTest {
