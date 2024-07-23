@@ -1,10 +1,6 @@
 package com.td3.shop.products;
 
-public class Clothing {
-  private final String id;
-  private final String name;
-  private final String description;
-  private final double unitPrice;
+public class Clothing extends Product {
   private final ClotheSize size;
   private final ClothingMaterial material;
 
@@ -15,10 +11,7 @@ public class Clothing {
       double unitPrice,
       ClotheSize size,
       ClothingMaterial material) {
-    this.id = id;
-    this.name = name;
-    this.description = description;
-    this.unitPrice = unitPrice;
+    super(id, name, description, unitPrice);
     this.size = size;
     this.material = material;
   }
